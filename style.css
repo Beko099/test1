@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+p {
+    color: white;
+    font-size: 12px;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+section {
+    display: flex;
+}
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+.navigation > h1 {
+    font-size: 28px;
+}
+.bars {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    gap: 30px;
+    padding-left: 10%;
+}
+.bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.bar > img {
+    width: 55px;
+    height: 55px;
+
+    border-radius: 50%;
+}
+.bar > h2 {
+    font-size: 18px;
+}
+
+
+.drop-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+    padding-left: 5%;
+    position: relative;
+
+}
+.drop-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.drop-section img{
+    border-radius: 50%;
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+}
+.drop-section button {
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #A6CFD5;
+    color: #DBFCFF;
+    cursor: pointer;
+}
+.drop-bars {
+    width: 300px;
+    height: 300px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    gap: 20px;
+}
+.drop-bars > a {
+    margin: 0;
+    font-size: 14px;
+    border: 1px solid black;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+
+    position: relative;
+}
+
+.content {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 75%; 
+}
+.nav {
+    font-size: 28px;
+    font-weight: 700;
+    width: 300px;
+    text-align: right;
+}
+.search-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.search-section > input {
+    height: 30px;
+    width: 450px;
+    border-radius: 10px;
+
+    padding-left: 100px;
+    font-size: 20px;
+}
+.search-section>h2{
+    font-size: 24px;
+}
+
+.scrapper > h1 {
+    font-size: 28px;
+    text-align: center;
+}
+.profile-info {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+
+    margin-top: 60px;
+}
+.avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 1px solid black;
+
+    position: relative;
+}
+.avatar > button {
+    font-size: 12px;
+    width: 100px;
+    height: 20px;
+
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+}
+.info-scrapper {
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+}
+.info {
+    display: flex;
+    gap: 30px;
+}
+.info input {
+    width: 400px;
+    height: 30px;
+
+    font-size: 16px;
+    padding-left: 20px;
+}
